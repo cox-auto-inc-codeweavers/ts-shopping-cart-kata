@@ -16,7 +16,7 @@ There are some some simple failing tests in `src/checkout.spec.ts` that you can 
 
 The tests that you'll find follow the naming convention `*.spec.ts` and are written using [Jest](https://jestjs.io/).
 
-- to run the tests, run the following command:
+- to run the tests, you'll first need to run `npm install` to install the dependencies, then run the following command:
 
 ```
 npm test
