@@ -5,12 +5,12 @@ Each product has a price, and the total price of the shopping cart is the total 
 
 ### The Goal
 
-The goal of the exercise is to implement a `Checkout` that can handle the following scenarios (and more - use your imagination!):
+The goal of the exercise is to implement a `Checkout` that can handle the following scenarios:
 
-- The checkout should be able to handle a shopping cart with no special deals
+- The checkout should be able to handle a shopping cart with multiple scanned products of varying quantities (4x Apple, 2x Milk etc.).
 - The client should get a receipt with the list of purchases and the total price.
 
-There are some some simple failing tests in `src/checkout.spec.ts` that you can run to get you started.
+There are failing tests in `src/checkout.spec.ts` that you can run to help get you started.
 
 ### Running the tests
 
